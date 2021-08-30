@@ -1,0 +1,55 @@
+﻿@page
+@model practicas2.Pages.nominaModel
+@{
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Nomina</h1>
+   
+
+</div>
+
+<table>
+    <tr>
+
+        <th> nombres</th>
+        <th>apellidos</th>
+        <th>cargo</th>
+        <th>  salario mensual</th>
+        <th>descuento AFP</th>
+        <th>descuento ARS</th>
+
+        <th>descuento ISR</th>
+        <th>total de descuentos</th>
+        <th> Salario Neto</th>
+
+    </tr>
+    @foreach (var item in Model.lista)
+    {
+<tr>
+    <td>@item.nombre</td>
+    <td>@item.apellido</td>
+    <td>@item.cargo</td>
+    <td>@item.salario</td>
+
+    <td>@Model.seguro(@item.salario)</td>
+    <td>@Model.admin(@item.salario)</td>
+    <td>@Model.imp(@item.salario)</td>
+
+    <td>@Model.total_desc(@item.salario)</td>
+    <td>@Model.neto(@item.salario)</td>
+
+
+
+
+
+
+
+
+</tr>
+    }
+
+
+</table>

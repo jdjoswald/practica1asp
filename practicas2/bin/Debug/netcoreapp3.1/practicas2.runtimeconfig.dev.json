@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\laraw\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\laraw\\.nuget\\packages"
+    ]
+  }
+}
