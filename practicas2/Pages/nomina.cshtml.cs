@@ -12,32 +12,33 @@ namespace practicas2.Pages
 
       public  List<nomina> lista = new List<nomina>() { 
             new nomina(
-                "cdq",
-                "puerco",
-                 "mmg",
+                "prueba",
+                "prueba",
+                 "preuba",
+                25000.00 ),
+             new nomina(
+                "prueba",
+                "prueba",
+                 "preuba",
+                25000.00 ),
+              new nomina(
+                "prueba",
+                "prueba",
+                 "preuba",
+                25000.00 ),
+               new nomina(
+                "prueba",
+                "prueba",
+                 "preuba",
+                25000.00 ),
+                new nomina(
+                "prueba",
+                "prueba",
+                 "preuba",
                 25000.00 ),
 
 
-            new nomina(
-                "cdq",
-                "puerco",
-                 "mmg",
-                25000.00 ),
-            new nomina(
-                "cdq",
-                "puerco",
-                 "mmg",
-                25000.00 ),
-            new nomina(
-                "cdq",
-                "puerco",
-                 "mmg",
-                25000.00 ),
-            new nomina(
-                "cdq",
-                "puerco",
-                 "mmg",
-                25000.00 )
+
         };
 
 
